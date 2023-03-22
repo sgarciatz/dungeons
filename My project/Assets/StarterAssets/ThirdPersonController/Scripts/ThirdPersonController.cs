@@ -102,7 +102,8 @@ namespace StarterAssets
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
         private PlayerInput _playerInput;
 #endif
-        private Animator _animator;
+        public Animator _animator;
+
         private CharacterController _controller;
         private StarterAssetsInputs _input;
         private GameObject _mainCamera;
@@ -195,11 +196,12 @@ namespace StarterAssets
 
         private void PunchingCheck()
         {
-            if (Input.GetMouseButtonDown(0)) {
+            if (_input.punch) {
                 if (_hasAnimator)
                 {
                     _animator.SetTrigger(_animIDPunching);
                 }            
+                _input.punch = false; 
             }
             
         }
