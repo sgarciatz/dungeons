@@ -355,6 +355,8 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 "Assets/MyAssets/Scripts/AttackEnemy.cs"
 "Assets/MyAssets/Scripts/EnemyLife.cs"
+"Assets/MyAssets/Scripts/OpenDoor.cs"
+"Assets/MyAssets/Scripts/Victory.cs"
 "Assets/PlayerWeapon.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs"

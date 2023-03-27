@@ -1,0 +1,635 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1679944947335553, "dur": 507967, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679944947335610, "dur": 3285, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679944947338896, "dur": 42567, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679944947381466, "dur": 278225, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679944947659696, "dur": 179703, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679944947839404, "dur": 4115, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679944947843767, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1679944947373189, "dur":631, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947373831, "dur":63, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1679944947373920, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1679944947373940, "dur":219, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1679944947374180, "dur":592, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947374772, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947374994, "dur":20, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375014, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375044, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375045, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375054, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375054, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375061, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375061, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375068, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375079, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375083, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375087, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375091, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375095, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375099, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375102, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375106, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375107, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947375109, "dur":605, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1679944947374000, "dur":819, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947374825, "dur":161, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947374022, "dur":808, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947374830, "dur":195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679944947374049, "dur":789, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679944947374838, "dur":158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947374074, "dur":806, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947374880, "dur":142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947374098, "dur":791, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947374890, "dur":108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679944947374120, "dur":782, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679944947374902, "dur":154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947374140, "dur":767, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947374907, "dur":103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679944947374201, "dur":803, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947376147, "dur":49, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1679944947843926, "dur": 137, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1679944947514356, "dur": 126318, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679944947515508, "dur": 56644, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679944947622393, "dur": 4495, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679944947626889, "dur": 13778, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679944947627640, "dur": 12711, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679944947644918, "dur": 1485, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679944947644476, "dur": 1953, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679944947844090, "dur": 78, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1679944947696410, "dur":554, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947696971, "dur":49, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1679944947697051, "dur":36, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1679944947697087, "dur":222, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1679944947697329, "dur":652, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947697981, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830047, "dur":46, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830093, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830111, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830111, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830118, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830118, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830122, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830122, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830126, "dur":150, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830276, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830280, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830285, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830289, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830294, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830298, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830302, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830306, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830314, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947830318, "dur":591, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1679944947697181, "dur":856, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947698038, "dur":1285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947699325, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947699474, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947699478, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1679944947699485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947699608, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1679944947700280, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947700314, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947700320, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1679944947700341, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947700362, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1679944947701916, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1679944947701925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947701936, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702191, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702226, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702231, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702362, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702368, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702399, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702403, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702426, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702432, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702456, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702461, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702523, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702530, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702554, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702557, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702573, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702576, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702630, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702633, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702717, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702721, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702776, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702779, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702875, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702879, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702909, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702913, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702935, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702938, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702954, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947702958, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703212, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703219, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703283, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703291, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703412, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703417, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703440, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703445, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703485, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703490, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703520, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703525, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703554, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703558, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703617, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703622, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703643, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703648, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703676, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703681, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703703, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703708, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703730, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947703735, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.InputSystem.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704170, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704176, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704235, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704242, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704264, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704269, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704301, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704306, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704341, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947704345, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947705290, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947705296, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947705784, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947705790, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947705966, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947705972, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706001, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706006, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706029, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706034, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706063, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706068, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706120, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706125, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706146, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706151, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706180, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706185, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706213, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706217, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706248, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706254, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706271, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706280, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706303, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706309, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706349, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706357, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706597, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706602, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706631, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706636, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706656, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706661, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706704, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706709, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706736, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706740, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706768, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706773, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706872, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706878, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706908, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706913, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706941, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947706946, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947707219, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947707224, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947707255, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947707260, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947707363, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947707369, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947707391, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947707396, "dur":2201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709597, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709603, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709649, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709654, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709688, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709693, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709810, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709815, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709842, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709847, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709873, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709878, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709927, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709932, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709953, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709958, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709988, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947709993, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710010, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710014, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710224, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710230, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710256, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710260, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710280, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710284, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710323, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710328, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710358, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710363, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710381, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710385, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710703, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710708, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710725, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710729, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947710757, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1679944947712197, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1679944947712208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679944947712216, "dur":5281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1679944947717503, "dur":112566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947697170, "dur":822, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947697996, "dur":1294, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947699290, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1679944947699292, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947699345, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1679944947699361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947699681, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1679944947700205, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679944947700229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947700253, "dur":310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679944947700567, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":2, "ts":1679944947700576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947700587, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702140, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702187, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702192, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702220, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702225, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702249, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702254, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702294, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702299, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702329, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702334, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702368, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702374, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702404, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702409, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702441, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702447, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702482, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702487, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702511, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702516, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702538, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702542, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702569, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702574, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702716, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702720, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702747, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702751, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702770, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702774, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702782, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702786, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702881, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947702887, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947703006, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947703012, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704058, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704065, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704101, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704106, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704139, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704145, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704170, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704175, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704362, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704368, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704775, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704781, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704829, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704835, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704872, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704877, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679944947704935, "dur":17735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679944947722677, "dur":107387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679944947697230, "dur":855, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679944947698086, "dur":1282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679944947699369, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1679944947699392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679944947699805, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1679944947700463, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":3, "ts":1679944947700473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679944947700522, "dur":10481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":3, "ts":1679944947711014, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1679944947711031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679944947711041, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1679944947715467, "dur":114585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947697263, "dur":839, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947698102, "dur":1223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947699326, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1679944947699423, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947699431, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1679944947699443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947699984, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1679944947700204, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1679944947700221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947700258, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1679944947700477, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":4, "ts":1679944947700491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947700522, "dur":10981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":4, "ts":1679944947711512, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1679944947711530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947711539, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1679944947711782, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679944947711791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947711800, "dur":347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679944947712151, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1679944947712186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947712195, "dur":104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1679944947712303, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1679944947712333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947712341, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1679944947712671, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1679944947713008, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679944947713014, "dur":117030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947697250, "dur":844, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947698094, "dur":1259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947699366, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1679944947699394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947699936, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1679944947700383, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1679944947700404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947700412, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1679944947700812, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":5, "ts":1679944947700819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947700823, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":5, "ts":1679944947701229, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947701297, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947701304, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947701320, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947701324, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947701338, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947701342, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1679944947701348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947701353, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1679944947702436, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1679944947702450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947702578, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703389, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703429, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703435, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703481, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703487, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703517, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703522, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703546, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703550, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703570, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703574, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703594, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703597, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703752, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703757, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703780, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703784, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703824, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947703829, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947704656, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947704662, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947704701, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947704705, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947704734, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947704740, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947704851, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947704857, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947705851, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947705858, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947705915, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947705921, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947705942, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947705946, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947705966, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947705970, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706023, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706028, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706052, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706057, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706090, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706095, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706260, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706266, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706297, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706303, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706343, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706349, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706376, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706381, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706531, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706536, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706564, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706569, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706614, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706620, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706669, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706674, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706716, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706722, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706792, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706797, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706841, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947706847, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947707019, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947707025, "dur":956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947707981, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947707988, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708046, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708052, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708280, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708285, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708328, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708334, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708358, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708364, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708506, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947708511, "dur":2231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947710742, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947710764, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679944947710810, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947710823, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679944947710833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947710842, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711166, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711203, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711303, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711344, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711450, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711491, "dur":106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711601, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679944947711615, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1679944947712858, "dur":117179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679944947697295, "dur":848, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679944947698143, "dur":1205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679944947699351, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1679944947699375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679944947699706, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1679944947700228, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1679944947700247, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679944947700273, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1679944947701020, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/UnityPlayer.so" }}
+,{ "pid":12345, "tid":6, "ts":1679944947701034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679944947701041, "dur":128959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/UnityPlayer.so" }}
+,{ "pid":12345, "tid":6, "ts":1679944947830009, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1679944947830011, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947697336, "dur":853, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947698190, "dur":1161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947699352, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1679944947699375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947699757, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1679944947700203, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1679944947700249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947700264, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1679944947700875, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita.x86_64" }}
+,{ "pid":12345, "tid":7, "ts":1679944947700890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947700908, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita.x86_64" }}
+,{ "pid":12345, "tid":7, "ts":1679944947703146, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947703682, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947703687, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947703824, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947703830, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947703854, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947703859, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704164, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704170, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704197, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704212, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704242, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704247, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704487, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704493, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704763, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704768, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704814, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704819, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704858, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704864, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704886, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704891, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704927, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947704932, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705047, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705052, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705086, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705091, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705132, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705137, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UNETModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705175, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705180, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705210, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705215, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705241, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705246, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705282, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705287, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705310, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705315, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705345, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705350, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705420, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705425, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705454, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705459, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705514, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947705519, "dur":1824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947707343, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947707350, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947707942, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947707948, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947707990, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947707995, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708047, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708055, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708078, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708083, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708104, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708109, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708157, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708162, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708192, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708197, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708219, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708224, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708267, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708272, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708303, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708308, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708395, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708400, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708421, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708426, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708461, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708466, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708507, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708512, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708542, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708547, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708577, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708582, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708622, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708627, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708648, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708657, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708680, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947708685, "dur":3894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679944947712580, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947712586, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947712633, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947712637, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1679944947712669, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947712674, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1679944947712688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679944947712697, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1679944947713384, "dur":116665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679944947697377, "dur":822, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679944947698199, "dur":1094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679944947699295, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679944947699609, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679944947699615, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1679944947699630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679944947699655, "dur":549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1679944947700228, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1679944947700298, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679944947700305, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1679944947700317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679944947700351, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1679944947700869, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1679944947700881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679944947700896, "dur":15286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/santi/GameDev/Unity/unityProjects/prueba/Cosita_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1679944947716193, "dur":113873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679944947835822, "dur":444, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1679944947844189, "dur": 523, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679944947843743, "dur": 977, "ph": "X", "name": "Write chrome-trace events", "args": {} },
